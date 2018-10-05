@@ -10,7 +10,7 @@ if ($_POST) {
 
 	// Enter the email where you want to receive the message
 	$emailFrom = 'noreply@iriana.io';
-	$emailTo = 'info@intracol.com, kmazdrashki@intracol.com, vmaslenkov@intracol.com, kamenim@gmail.com';
+	$emailTo = 'martin.krusev@bulpros.com';
 	$mailParams = '-f' . $emailFrom;
 
 	$firstName = addslashes(trim($_POST['fname']));
