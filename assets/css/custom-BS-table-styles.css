@@ -1,0 +1,93 @@
+.table-responsive {
+	display: none;
+	max-height: 550px;
+	border: none;
+	overflow-y: auto;
+}
+
+.search > input {
+	border-radius: 0;
+	box-shadow: none;
+}
+
+.table {
+	border-bottom:0 !important;
+}
+
+.table th, .table td {
+	border: 1px !important;
+}
+
+.fixed-table-container {
+	border:0 !important;
+}
+
+thead {
+	border-bottom: 2px solid #ddd;
+	border-top: 2px solid #ddd;
+}
+
+thead > tr > th {
+	padding: 8px 0 !important;
+}
+
+tbody > tr > td {
+	padding: 8px 15px 8px 8px !important;
+}
+
+tbody > tr > td.bs-checkbox {
+	padding-left: 30px !important;
+}
+.pagination * {
+	border: none !important;
+}
+
+.pagination > li > a {
+	color: #333 !important;
+}
+
+.pagination > li > a:hover {
+	color: #449d44 !important;
+	background-color: transparent !important;
+	text-decoration: underline;
+}
+
+.pull-right.pagination {
+	margin: 5px 0 5px 0 !important;
+}
+
+.pull-right.pagination > ul {
+	display: flex;
+	align-items: center;
+}
+
+.pagination > .active > a, .page-list .dropdown-menu > .active > a {
+	background-color: transparent !important;
+	color: #449d44 !important;
+}
+
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+	background-color: #449d44 !important;
+	color: #fff !important;
+}
+
+.page-pre, .page-next {
+	font-size: 22px;
+}
+
+.page-list > .dropup > button {
+	border: none;
+	padding: 0;
+	min-width: 35px;
+}
+
+.page-list > .dropup > button:hover,
+.page-list > .dropup > button:active,
+.page-list > .dropup > button:focus,
+.open > .dropdown-toggle.btn-default:focus,
+.open>.dropdown-toggle.btn-default:hover {
+	color: #449d44;
+	background-color: transparent;
+	border-color: transparent;
+	box-shadow: none;
+}

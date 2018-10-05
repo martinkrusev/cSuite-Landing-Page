@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# redirect from http to htpps
+#RewriteCond %{HTTPS}  !=on 
+#RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L] 
+
+# simple routing from domain/any_file_name to routing.php?page=$1
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ routing.php?page=$1 [QSA,L]

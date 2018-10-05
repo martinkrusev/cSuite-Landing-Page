@@ -1,0 +1,28 @@
+{
+  "plans": {
+    "XS": {
+      "name": "Beginner",
+      "type":  "plan xs",
+      "credits": 50,
+      "price": 35
+    },
+    "S": {
+      "name": "Small",
+      "type":  "plan s",
+      "credits": 250,
+      "price": 110
+    },
+    "M": {
+      "name": "Medium",
+      "type":  "plan m",
+      "credits": 500,
+      "price": 200
+    },
+    "L": {
+      "name": "Large",
+      "type":  "plan l",
+      "credits": 1000,
+      "price": 370
+    }
+  }
+}
