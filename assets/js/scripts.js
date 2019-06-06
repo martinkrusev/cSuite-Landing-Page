@@ -322,7 +322,7 @@ jQuery(document).ready(function () {
 		})
 	});
 
-	function showLandingPageFor($feature) {
+	/*function showLandingPageFor($feature) {
 		var $mainSectionContainers = $('.how-it-works-container, .pricing-container, .why-iriana-container, .contact-us-container');
 		var $nav = $('nav');
 
@@ -346,7 +346,7 @@ jQuery(document).ready(function () {
 		$('body, html').animate({
 			scrollTop: $('#featuresContainer').position().top - 73 // the height of navigation bar when collapsed
 		}, 500);
-	}
+	} */
 
 	function showMainContent() {
 		var $mainSectionContainers = $('.how-it-works-container, .pricing-container, .why-iriana-container, .contact-us-container');
@@ -538,7 +538,7 @@ jQuery(document).ready(function () {
 					&& json.emailMessage == '' && json.phoneMessage == '' && json.messageMessage == '') {
 					this_form_parent.find('.c-form-1-top').fadeOut('fast');
 					this_form_parent.find('.c-form-1-bottom').fadeOut('fast', function () {
-						this_form_parent.append('<h3>Thank you for your interest in our product Iriana.<br/>Our representative will contact you within the next 48 hours.</h3>');
+						this_form_parent.append('<h3>Thank you for your interest in our product CGLink.<br/>Our representative will contact you within the next 48 hours.</h3>');
 						$('.contact-container').backstretch("resize");
 					});
 				}

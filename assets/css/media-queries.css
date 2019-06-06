@@ -3,13 +3,7 @@
 
 	.top-content { padding: 70px 0 80px 0; }
 
-	.more-features-box-text { margin-top: 30px; padding-left: 0; padding-right: 0; }
-	.more-features-box-text:first-child { margin-top: 0; }
-
-	.great-support-box-text { padding-left: 0; }
-	.great-support-box-text:first-child { margin-top: 0; }
-
-	.why-iriana-text { width: 80%; }
+	.why-CGLINK-text { width: 80%; }
 
 }
 
@@ -19,22 +13,9 @@
 
 	.section-description p { padding: 0; }
 
-	.more-features-box { float: none; width: auto; }
-	.more-features-box:last-child { margin-top: 50px; }
-	.more-features-box-text { margin-top: 30px; padding-left: 0; padding-right: 0; text-align: center; }
-	.more-features-box-text:first-child { margin-top: 0; }
-	.more-features-box-text-icon { float: none; display: inline-block; }
-	.more-features-box-text h3 { float: none; width: auto; margin-top: 20px; }
-	.more-features-box-text-description { float: none; width: auto; }
-
-	.great-support-box { float: none; width: auto; }
-	.great-support-box:last-child { margin-top: 50px; }
-	.great-support-box-text { margin-top: 30px; padding-left: 0; text-align: center; }
-	.great-support-box-text:first-child { margin-top: 0; }
-
-	.pricing-box-features li { padding-left: 10px; padding-right: 10px; }
-
-	.why-iriana-text { width: 75%; float: none; width: auto; padding-left: 60px; padding-right: 60px; }
+	.why-CGLINK-text { width: 75%; float: none; width: auto; padding-left: 60px; padding-right: 60px; }
+	.why-CGLINK ul {padding: 0;}
+	.who-is-it-for ul {padding: 0;}
 
 	.footer-contact-info i { padding-right: 5px; }
 	.footer-social a { margin-right: 15px; }
@@ -56,22 +37,9 @@
 	.top-content { padding: 40px 0 80px 0; }
 	.top-content .top-buttons { margin-top: 50px; }
 
-    .more-features-box:last-child { margin-top: 50px; }
-    .more-features-box-text { margin-top: 30px; padding-left: 0; padding-right: 0; text-align: center; }
-	.more-features-box-text:first-child { margin-top: 0; }
-	.more-features-box-text-icon { float: none; display: inline-block; }
-	.more-features-box-text h3 { float: none; width: auto; margin-top: 20px; }
-	.more-features-box-text-description { float: none; width: auto; }
-
-	.great-support-box:last-child { margin-top: 50px; }
-	.great-support-box-text { margin-top: 30px; padding-left: 0; text-align: center; }
-	.great-support-box-text:first-child { margin-top: 0; }
-
-	.pricing-box { padding-bottom: 50px; }
-    .pricing-box:last-child { padding-bottom: 0; }
-    .pricing-box-features li { padding-left: 10px; padding-right: 10px; }
-
-	.why-iriana-text { float: none; width: auto; margin-top: 30px; text-align: center; }
+	.why-CGLINK-text { float: none; width: auto; margin-top: 30px; text-align: center; }
+	.why-CGLINK ul {padding: 0;}
+	.who-is-it-for ul {padding: 0;}
 
     footer { text-align: center; }
     .footer-contact-info, .footer-social { padding-top: 30px; }
@@ -88,6 +56,7 @@
 	h1, h2 { font-size: 32px; }
 
 	.c-form-1-top-right { font-size: 40px; line-height: 90px; }
+	.c-form-1-top-left h3 { margin-top: 0px;}
 
 }
 
